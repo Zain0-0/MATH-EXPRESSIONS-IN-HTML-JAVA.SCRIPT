@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(236, 25, 25);">
+    <h1 style="background-color: rgb(63, 199, 29);">Shopping Cart</h1>
+    <p style="background-color: blue;">
+        price of item1 is 650 <br>
+        quantity of item1 is 4 <br>
+        price of item2 is 150 <br>
+        quantity of item2 is 5 <br>
+        shpping charges 200   
+    </p>
+    <script>
+        var price_of_item1=650;
+        var num_of_item1=4;
+        var price_of_item2=150;
+        var num_of_item2=5;
+        var cost_of_itme1s=price_of_item1*num_of_item1;
+        var cost_of_itme2s=price_of_item2*num_of_item2;
+        var shipping_charges=200;
+        var total_cost=cost_of_itme1s+cost_of_itme2s+shipping_charges;
+        document.write("Total cost of your order is "+total_cost);
+    </script>
+</body>
+</html>
